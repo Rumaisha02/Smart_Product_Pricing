@@ -1,0 +1,32 @@
+# --------------------
+# General OS/IDE files
+# --------------------
+.DS_Store # macOS generated files
+.vscode/ # VSCode settings
+*~ # Temporary files
+
+# --------------------
+# Python Generated Files
+# --------------------
+# Byte-compiled files
+__pycache__/
+*.pyc
+# Pip environment/virtual environment
+.venv/
+venv/
+env/
+# Jupyter Notebook Checkpoints
+.ipynb_checkpoints/
+
+# --------------------
+# Data/Output Files (Crucial for collaboration)
+# --------------------
+# Assuming the files in 'dataset' are too large or should be sourced externally
+dataset/train.csv
+dataset/test.csv
+dataset/test_out.csv
+dataset/sample_test.csv
+dataset/sample_test_out.csv
+
+# Ignore the folder where all the downloaded images go (assuming it's named 'images')
+images/
